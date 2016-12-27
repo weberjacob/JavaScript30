@@ -62,10 +62,17 @@
       background: linear-gradient(to top,  #ffffff 0%,#EFEFEF 100%);
     }
 
-    span.population {
+    span.population,
+    span.rank {
       font-size: 15px;
     }
 
+    span.rank {
+      background: rgba(0,0,0,0.6);
+      color: white;
+      padding: 1px;
+      border-radius: 0.5em;
+    }
 
     .details {
       text-align: center;
